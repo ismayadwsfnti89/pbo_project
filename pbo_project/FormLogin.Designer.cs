@@ -57,7 +57,7 @@
             // 
             // panel1
             // 
-            panel1.BackColor = SystemColors.ButtonFace;
+            panel1.BackColor = SystemColors.Control;
             panel1.Controls.Add(btnlogin);
             panel1.Controls.Add(tbpassword);
             panel1.Controls.Add(label1);
@@ -149,7 +149,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1163, 704);
+            ClientSize = new Size(1164, 706);
             Controls.Add(panel1);
             Controls.Add(pictureBox1);
             Name = "FormLogin";

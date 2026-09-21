@@ -2,132 +2,120 @@
 {
     partial class UserJadwal
     {
-        /// <summary> 
-        /// Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary> 
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
-            {
                 components.Dispose();
-            }
             base.Dispose(disposing);
         }
 
         #region Component Designer generated code
 
-        /// <summary> 
-        /// Required method for Designer support - do not modify 
-        /// the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
-            Button button1;
-            dataGridView1 = new DataGridView();
-            bulan = new Label();
-            btnPrev = new Button();
-            btnNext = new Button();
-            btnKembali = new Button();
-            button1 = new Button();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            SuspendLayout();
-            // 
-            // button1
-            // 
-            button1.Location = new Point(559, 764);
-            button1.Name = "button1";
-            button1.RightToLeft = RightToLeft.Yes;
-            button1.Size = new Size(119, 23);
-            button1.TabIndex = 11;
-            button1.Text = "REFRESH";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView1
-            // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(43, 159);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(1208, 587);
-            dataGridView1.TabIndex = 12;
-            // 
-            // bulan
-            // 
-            bulan.AutoSize = true;
-            bulan.Location = new Point(597, 102);
-            bulan.Name = "bulan";
-            bulan.Size = new Size(70, 15);
-            bulan.TabIndex = 13;
-            bulan.Text = "SEPTEMBER";
-            // 
-            // btnPrev
-            // 
-            btnPrev.Location = new Point(410, 98);
-            btnPrev.Name = "btnPrev";
-            btnPrev.Size = new Size(75, 23);
-            btnPrev.TabIndex = 14;
-            btnPrev.Text = "SEBELUMNYA";
-            btnPrev.UseVisualStyleBackColor = true;
-            // 
-            // btnNext
-            // 
-            btnNext.Location = new Point(756, 98);
-            btnNext.Name = "btnNext";
-            btnNext.Size = new Size(75, 23);
-            btnNext.TabIndex = 15;
-            btnNext.Text = "SELANJUTNYA";
-            btnNext.UseVisualStyleBackColor = true;
-            // 
+            this.btnKembali = new System.Windows.Forms.Button();
+            this.lblJudul = new System.Windows.Forms.Label();
+            this.btnPrev = new System.Windows.Forms.Button();
+            this.bulan = new System.Windows.Forms.Label();
+            this.btnNext = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.SuspendLayout();
+
             // btnKembali
-            // 
-            btnKembali.Location = new Point(23, 16);
-            btnKembali.Name = "btnKembali";
-            btnKembali.Size = new Size(75, 23);
-            btnKembali.TabIndex = 16;
-            btnKembali.Text = "KEMBALI";
-            btnKembali.UseVisualStyleBackColor = true;
-            // 
+            this.btnKembali.BackColor = System.Drawing.Color.LightGray;
+            this.btnKembali.Location = new System.Drawing.Point(30, 20);
+            this.btnKembali.Name = "btnKembali";
+            this.btnKembali.Size = new System.Drawing.Size(90, 30);
+            this.btnKembali.TabIndex = 0;
+            this.btnKembali.Text = "< KEMBALI";
+            this.btnKembali.UseVisualStyleBackColor = false;
+
+            // lblJudul
+            this.lblJudul.AutoSize = true;
+            this.lblJudul.Font = new System.Drawing.Font("Times New Roman", 22F, System.Drawing.FontStyle.Bold);
+            this.lblJudul.ForeColor = System.Drawing.Color.Transparent;
+            this.lblJudul.Location = new System.Drawing.Point(387, 14);
+            this.lblJudul.Name = "lblJudul";
+            this.lblJudul.Size = new System.Drawing.Size(267, 35);
+            this.lblJudul.TabIndex = 1;
+            this.lblJudul.Text = "JADWAL SHOLAT";
+
+            // btnPrev
+            this.btnPrev.BackColor = System.Drawing.Color.Ivory;
+            this.btnPrev.Location = new System.Drawing.Point(633, 87);
+            this.btnPrev.Name = "btnPrev";
+            this.btnPrev.Size = new System.Drawing.Size(108, 30);
+            this.btnPrev.TabIndex = 2;
+            this.btnPrev.Text = "< SEBELUMNYA";
+            this.btnPrev.UseVisualStyleBackColor = false;
+
+            // bulan
+            this.bulan.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Bold);
+            this.bulan.ForeColor = System.Drawing.Color.DarkGreen;
+            this.bulan.Location = new System.Drawing.Point(387, 94);
+            this.bulan.Name = "bulan";
+            this.bulan.Size = new System.Drawing.Size(240, 25);
+            this.bulan.TabIndex = 3;
+            this.bulan.Text = "Memuat...";
+            this.bulan.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+
+            // btnNext
+            this.btnNext.BackColor = System.Drawing.Color.Ivory;
+            this.btnNext.Location = new System.Drawing.Point(259, 89);
+            this.btnNext.Name = "btnNext";
+            this.btnNext.Size = new System.Drawing.Size(108, 26);
+            this.btnNext.TabIndex = 4;
+            this.btnNext.Text = "SELANJUTNYA >";
+            this.btnNext.UseVisualStyleBackColor = false;
+
+            // button1 (REFRESH)
+            this.button1.BackColor = System.Drawing.Color.Ivory;
+            this.button1.Location = new System.Drawing.Point(776, 89);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(100, 26);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "REFRESH";
+            this.button1.UseVisualStyleBackColor = false;
+
+            // dataGridView1
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.Ivory;
+            this.dataGridView1.ColumnHeadersHeightSizeMode =
+                System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(30, 134);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(1098, 590);
+            this.dataGridView1.TabIndex = 6;
+
             // UserJadwal
-            // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.DarkSeaGreen;
-            Controls.Add(btnKembali);
-            Controls.Add(btnNext);
-            Controls.Add(btnPrev);
-            Controls.Add(bulan);
-            Controls.Add(dataGridView1);
-            Controls.Add(button1);
-            Name = "UserJadwal";
-            Size = new Size(1308, 811);
-            Load += UserJadwal_Load_1;
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.Controls.Add(this.btnKembali);
+            this.Controls.Add(this.lblJudul);
+            this.Controls.Add(this.btnPrev);
+            this.Controls.Add(this.bulan);
+            this.Controls.Add(this.btnNext);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.dataGridView1);
+            this.Name = "UserJadwal";
+            this.Size = new System.Drawing.Size(1180, 745);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
-        private Label label2;
-        private Label label3;
-        private Label label4;
-        private Label label5;
-        private TextBox tbsubuh;
-        private TextBox tbdzuhur;
-        private TextBox tbasar;
-        private TextBox tbmaghrib;
-        private TextBox tbisya;
-        private Button button1;
-        private DataGridView dataGridView1;
-        private Label bulan;
-        private Button btnPrev;
-        private Button btnNext;
-        private Button btnKembali;
+        private System.Windows.Forms.Button btnKembali;
+        private System.Windows.Forms.Label lblJudul;
+        private System.Windows.Forms.Button btnPrev;
+        private System.Windows.Forms.Label bulan;
+        private System.Windows.Forms.Button btnNext;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

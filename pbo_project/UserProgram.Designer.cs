@@ -187,7 +187,7 @@
             label6.AutoSize = true;
             label6.Font = new Font("Times New Roman", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label6.ForeColor = Color.Transparent;
-            label6.Location = new Point(482, 40);
+            label6.Location = new Point(425, 33);
             label6.Name = "label6";
             label6.Size = new Size(269, 31);
             label6.TabIndex = 15;
@@ -226,7 +226,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "UserProgram";
-            Size = new Size(1188, 751);
+            Size = new Size(1180, 745);
             ((System.ComponentModel.ISupportInitialize)dgvProgram).EndInit();
             ResumeLayout(false);
             PerformLayout();
